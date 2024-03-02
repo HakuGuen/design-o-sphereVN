@@ -1,0 +1,31 @@
+.language-toggle {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .language-toggle button {
+    font-size: 16px;
+    color: #ffffff; /* Light mode text color */
+    background-color: #333; /* Dark background for contrast */
+    border: 2px solid #555; /* Slightly lighter border for depth */
+    border-radius: 20px; /* Rounded corners */
+    padding: 5px 15px; /* Spacing inside the button */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .language-toggle button:hover, .language-toggle button:focus {
+    background-color: #555; /* Darker on hover/focus for feedback */
+    color: #ddd; /* Lighter text on hover/focus for contrast */
+    border-color: #777; /* Adjust border color on hover/focus */
+    outline: none; /* Remove focus outline for custom styling */
+  }
+  
+  /* Optional: Add a focus-visible polyfill or use :focus-visible for better accessibility */
+  .language-toggle button:focus-visible {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #333; /* Add a focus ring */
+  }

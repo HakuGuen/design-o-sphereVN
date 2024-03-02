@@ -22,6 +22,7 @@ export interface Translation {
     description: string
   }
   components: {
+    languageToggle: any
     callout: CalloutTranslation
     backlinks: {
       title: string
