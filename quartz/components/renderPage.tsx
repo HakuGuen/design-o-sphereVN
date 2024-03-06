@@ -9,6 +9,9 @@ import { Root, Element, ElementContent } from "hast"
 import { GlobalConfiguration } from "../cfg"
 import { i18n } from "../i18n"
 import Landing from "./Landing"
+import Darkmode from "./Darkmode"
+import Search from "./Search"
+import LanguageToggle from "./LanguageToggle"
 
 interface RenderComponents {
   head: QuartzComponent
@@ -206,11 +209,44 @@ export function renderPage(
 
   const lang = componentData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   const LandingComponent = Landing()
+  const DarkmodeComponent = Darkmode()
+  const SearchComponent = Search()
+  const LanguageComponent = LanguageToggle()
   const doc = (
     <html lang={lang}>
       <Head {...componentData} />
       <body data-slug={slug}>
+            {/* {LeftComponent}
+            <div class="center">
+              <div class="page-header">
+                <Header {...componentData}>
+                  {header.map((HeaderComponent) => (
+                    <HeaderComponent {...componentData} />
+                  ))}              
+                </Header>
+                </div>
+             </div> */}
+            {slug === "index" &&       
+      <div class="marquee">
+          <p>
+            The Digital Garden • The Designer's Library • The Architecture Handbook • The Interior Design 
+            • the Landcape Design • The Event Design • The Lighting Design • The Resource Repository • 
+            The Digital Garden • The Designer's Library • The Architecture Handbook • The Interior Design 
+            • the Landcape Design • The Event Design • The Lighting Design • The Resource Repository •
+            The Digital Garden • The Designer's Library • The Architecture Handbook • The Interior Design 
+            • the Landcape Design • The Event Design • The Lighting Design • The Resource Repository •
+          </p>
+        </div>}
+        
+          <div class="search">
+          <div class="darkmode">    
+      {slug === "index" && <SearchComponent {...componentData} />}
+      {slug === "index" && <DarkmodeComponent {...componentData} />}
+      {/* {slug === "index" && <LanguageComponent {...componentData} />} */}
+          </div>
+          </div>
       {slug === "index" && <LandingComponent {...componentData} />}
+
         {slug !== "index" && (
         <div id="quartz-root" class="page">
           <Body {...componentData}>

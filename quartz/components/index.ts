@@ -21,6 +21,7 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import LanguageToggle from "./LanguageToggle"
 import Landing from "./Landing"
+import Header from "./Header"
 
 export {
   ArticleTitle,
@@ -45,5 +46,6 @@ export {
   NotFound,
   Breadcrumbs,
   LanguageToggle,
-  Landing
+  Landing,
+  Header
 }
