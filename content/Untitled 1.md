@@ -1,0 +1,1 @@
+[[content_vn/index|index]]
