@@ -9,7 +9,8 @@
   .page-subhead {
     font-size: 14px;
     margin-bottom: 48px;
-    font-family: var(--codeFont);
+    // font-family: var(--codeFont);
+    font-family: sans-serif;
     text-transform: uppercase;
   }
   
@@ -63,13 +64,14 @@
   }
   
   .card-subhead {
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
-    font-family: monospace;
+    font-family: sans-serif;
     margin-top: 0;
     color:#e0dfdf;
-    // border-radius: 1px;
-    // background:linear-gradient(60deg,#00000051, transparent);
+    margin: 0 0 0 0;
+    border-radius: 4px;
+    background:linear-gradient(60deg, black, transparent);
   }
   
   .card img {
@@ -134,9 +136,9 @@
   
   .card-illustration-3 {
     position: absolute;
-    width: 50%;
+    width: 80%;
     bottom: -40px;
-    left: 30%;
+    left: 50%;
   }
   
   .card-4 {
@@ -149,7 +151,7 @@
   .card-illustration-4 {
     position: absolute;
     width: 50%;
-    bottom: 0;
+    bottom: 20;
     right: -10px;
   }
   
@@ -191,9 +193,9 @@
   
   .card-illustration-7 {
     position: absolute;
-    width: 50%;
+    width: 70%;
     bottom: -40px;
-    left: 30%;
+    left: 18%;
   }
   
   .card-8 {

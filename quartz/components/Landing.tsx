@@ -4,78 +4,78 @@ import landingStyle from "./styles/Landing.scss"
 
 export const TOTAL_CARDS = 8
 export const CARDS = {
-  basics: (
+  "Architecture": (
     <a href={"/Giới-Thiệu"}>
       <div class="card card-1">
         <p class="card-title">Kiến Trúc</p>
         <p class="card-subhead"> Thế giới và Việt Nam </p>
-        <img src="/static/1-illo.png" class="card-illustration-1" />
+        <img src="/static/1-ball.png" class="card-illustration-1" />
       </div>
     </a>
   ),
-  "getting-started": (
-    <a href={"/getting-started"}>
+  "Landscape-design": (
+    <a href={"/Landscape-Design"}>
       <div class="card card-2">
         <p class="card-title">Kiến Trúc Cảnh Quan</p>
         <p class="card-subhead">Thiết Kế Cảnh Quan</p>
-        <img src="/static/1-illo.png" class="card-illustration-2" />
+        <img src="/static/2-ball.png" class="card-illustration-2" />
       </div>
     </a>
   ),
-  "growing-people": (
-    <a href={"/growing-people"}>
+  "Interior-design": (
+    <a href={"/Interior-Design"}>
       <div class="card card-3">
         <p class="card-title">Kiến Trúc Nội Thất</p>
         <p class="card-subhead">Thiết Kế Nội Thất</p>
-        <img src="/static/1-illo.png" class="card-illustration-3" />
+        <img src="/static/3-ball.png" class="card-illustration-3" />
       </div>
     </a>
   ),
-  "superboosting-ideas": (
-    <a href={"/superboosting-ideas"}>
+  "Spatial-design": (
+    <a href={"/Spatial-Design"}>
       <div class="card card-4">
         <p class="card-title">Thiết Kế Không Gian</p>
         <p class="card-subhead">Chuyên ngành mới</p>
-        <img src="/static/1-illo.png" class="card-illustration-4" />
+        <img src="/static/4-ball.png" class="card-illustration-4" />
       </div>
     </a>
   ),
-  maintenance: (
-    <a href={"/maintenance"}>
+  "Urban-design": (
+    <a href={"/Urban-Design"}>
       <div class="card card-5">
         <p class="card-title">Quy Hoạch Đô Thị </p>
         <p class="card-subhead">Thiết kế đô thị </p>
-        <img src="/static/1-illo.png" class="card-illustration-5" />
+        <img src="/static/5-ball.png" class="card-illustration-5" />
       </div>
     </a>
   ),
 
-"industrial-design": (
-  <a href={"/maintenance"}>
+"Industrial-design": (
+  <a href={"/Industrial-Design"}>
     <div class="card card-6">
       <p class="card-title">Thiết Kế Công Nghiệp</p>
       <p class="card-subhead">Đồ Nội Thất</p>
-      <img src="/static/1-illo.png" class="card-illustration-6" />
+      <img src="/static/6-ball.png" class="card-illustration-6" />
     </div>
   </a>
 ),
 
-"Lighting-Material": (
-  <a href={"/maintenance"}>
+"Lighting-design": (
+  <a href={"/Lighting-Design"}>
     <div class="card card-7">
-      <p class="card-title">Ánh Sáng & Vật Liệu</p>
-      <p class="card-subhead">ứng dụng trong thiết kế </p>
-      <img src="/static/1-illo.png" class="card-illustration-7" />
+      <p class="card-title">Thiết Kế Ánh Sáng</p>
+      <p class="card-subhead">ứng dụng</p>
+      <img src="/static/7-ball.png" class="card-illustration-7" />
     </div>
   </a>
 ),
 
-"Case Study": (
-  <a href={"/maintenance"}>
+"AI-new materials": (
+  <a href={"/AI-New Materials"}>
     <div class="card card-8">
-      <p class="card-title">AI & Công cụ mới </p>
-      <p class="card-subhead">ứng dụng trong thiết kế</p>
-      <img src="/static/1-illo.png" class="card-illustration-8" />
+      <p class="card-title">AI & Vật liệu mới </p>
+      <p class="card-subhead">ứng dụng</p>
+      <img src="/static/8-ball.png" class="card-illustration-8" />
     </div>
   </a>
 ),
