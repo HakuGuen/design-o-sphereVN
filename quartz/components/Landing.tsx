@@ -7,8 +7,8 @@ export const CARDS = {
   basics: (
     <a href={"/Giới-Thiệu"}>
       <div class="card card-1">
-        <p class="card-title">The Basics</p>
-        <p class="card-subhead">Issue 001</p>
+        <p class="card-title">Kiến Trúc</p>
+        <p class="card-subhead"> Thế giới và Việt Nam </p>
         <img src="/static/1-illo.png" class="card-illustration-1" />
       </div>
     </a>
@@ -16,40 +16,71 @@ export const CARDS = {
   "getting-started": (
     <a href={"/getting-started"}>
       <div class="card card-2">
-        <p class="card-title">Getting Started</p>
-        <p class="card-subhead">Issue 002</p>
-        <img src="/static/2-illo.png" class="card-illustration-2" />
+        <p class="card-title">Kiến Trúc Cảnh Quan</p>
+        <p class="card-subhead">Thiết Kế Cảnh Quan</p>
+        <img src="/static/1-illo.png" class="card-illustration-2" />
       </div>
     </a>
   ),
   "growing-people": (
     <a href={"/growing-people"}>
       <div class="card card-3">
-        <p class="card-title">Growing People</p>
-        <p class="card-subhead">Issue 003</p>
-        <img src="/static/3-illo.png" class="card-illustration-3" />
+        <p class="card-title">Kiến Trúc Nội Thất</p>
+        <p class="card-subhead">Thiết Kế Nội Thất</p>
+        <img src="/static/1-illo.png" class="card-illustration-3" />
       </div>
     </a>
   ),
   "superboosting-ideas": (
     <a href={"/superboosting-ideas"}>
       <div class="card card-4">
-        <p class="card-title">Super- boosting Ideas</p>
-        <p class="card-subhead">Issue 004</p>
-        <img src="/static/4-illo.png" class="card-illustration-4" />
+        <p class="card-title">Thiết Kế Không Gian</p>
+        <p class="card-subhead">Chuyên ngành mới</p>
+        <img src="/static/1-illo.png" class="card-illustration-4" />
       </div>
     </a>
   ),
   maintenance: (
     <a href={"/maintenance"}>
       <div class="card card-5">
-        <p class="card-title">Maintenance</p>
-        <p class="card-subhead">Issue 005</p>
-        <img src="/static/5-illo.png" class="card-illustration-5" />
+        <p class="card-title">Quy Hoạch Đô Thị </p>
+        <p class="card-subhead">Thiết kế đô thị </p>
+        <img src="/static/1-illo.png" class="card-illustration-5" />
       </div>
     </a>
   ),
+
+"industrial-design": (
+  <a href={"/maintenance"}>
+    <div class="card card-6">
+      <p class="card-title">Thiết Kế Công Nghiệp</p>
+      <p class="card-subhead">Đồ Nội Thất</p>
+      <img src="/static/1-illo.png" class="card-illustration-6" />
+    </div>
+  </a>
+),
+
+"Lighting-Material": (
+  <a href={"/maintenance"}>
+    <div class="card card-7">
+      <p class="card-title">Ánh Sáng & Vật Liệu</p>
+      <p class="card-subhead">ứng dụng trong thiết kế </p>
+      <img src="/static/1-illo.png" class="card-illustration-7" />
+    </div>
+  </a>
+),
+
+"Case Study": (
+  <a href={"/maintenance"}>
+    <div class="card card-8">
+      <p class="card-title">AI & Công cụ mới </p>
+      <p class="card-subhead">ứng dụng trong thiết kế</p>
+      <img src="/static/1-illo.png" class="card-illustration-8" />
+    </div>
+  </a>
+),
 }
+
 
 export default (() => {
   function LandingComponent() {
@@ -58,22 +89,21 @@ export default (() => {
         <div class="content-container">
           <p class="landing-header">Welcome to Design-O-Sphere</p>
           <p class="page-subhead">
-            This is a guide •{" "}
+            Bắt đầu tại đậy •{" "}
             <a href={"/Giới-Thiệu"} target="_blank">
-              Back to main site
+            Giới thiệu
             </a>{" "}
             •{" "}
             <a href="https://github.com/Socratica-Org/toolbox" target="_blank">
-              Contribute
+            Hướng dẫn
             </a>{" "}
             •{" "}
             <a href="https://hakuguen.github.io/design-o-sphereEN" target="_self">
-              ENGLISH
+            Liên hệ
             </a>{" "}
             •{" "}
             
           </p>
-
           <div class="issue-container">
             {Object.values(CARDS)}
             {Array(TOTAL_CARDS - Object.keys(CARDS).length)

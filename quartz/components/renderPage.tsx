@@ -239,10 +239,10 @@ export function renderPage(
         </div>}
         
           <div class="search">
-          <div class="darkmode">    
+          <div class="darkmode-landing">    
       {slug === "index" && <SearchComponent {...componentData} />}
       {slug === "index" && <DarkmodeComponent {...componentData} />}
-      {/* {slug === "index" && <LanguageComponent {...componentData} />} */}
+      {slug === "index" && <LanguageComponent {...componentData} />}
           </div>
           </div>
       {slug === "index" && <LandingComponent {...componentData} />}

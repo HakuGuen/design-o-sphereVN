@@ -145,11 +145,13 @@ body[data-slug="maintenance"] a.navigation-button {
   background: #eb846d;
 }
 
-.darkmode {
+.darkmode-landing {
   flex-direction: row;
   display: flex;
   margin-top: 5px;
-  position: relative;
-  margin-right: end;
-  gap: 1rem;
+  justify-content: flex-end;
+  position:absolute;
+  right: 6rem;
+  align-items: center;
+  padding: 10px;
 }
