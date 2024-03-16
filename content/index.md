@@ -8,9 +8,9 @@ tags:
 ---
 [[Giới Thiệu]]
 			;;;
-[[content_vn/Untitled 1|Untitled 1]]
+[[Zettlekasten|Zettlekasten]]
 
-Đây là 1 nền tảng điện tử dưới dạng thư viện tổng hợp và sổ tay chuyên ngành dành cho tất cả mọi người từ kiến trúc sư, chuyên gia thiết kế, nghệ sĩ hay những ai yêu thích  lĩnh vực thiết kế, kiến trúc, và cảnh quan. [[Design-O-Sphere]] là một phương pháp quản lý kiến thức dạng "[[Design vs Decorate]]", nơi các ghi chú và ý tưởng liên kết với nhau tạo thành một thư viện động cho lĩnh vực thiết kế kiến trúc nội thất và cảnh quan.
+Đây là 1 nền tảng điện tử dưới dạng thư viện tổng hợp và sổ tay chuyên ngành dành cho tất cả mọi người từ kiến trúc sư, chuyên gia thiết kế, nghệ sĩ hay những ai yêu thích  lĩnh vực thiết kế, kiến trúc, và cảnh quan. [[content_vn/DesignOSphere]] là một phương pháp quản lý kiến thức dạng "[[Design vs Decorate]]", nơi các ghi chú và ý tưởng liên kết với nhau tạo thành một thư viện động cho lĩnh vực thiết kế kiến trúc nội thất và cảnh quan.
 
 Tại trung tâm của Design-o-Sphere, người dùng tìm thấy một kho tàng được tổ chức cẩn thận bao gồm các khía cạnh rộng lớn của thiết kế không gian - từ nền tảng lý thuyết của triết lý kiến trúc đến xu hướng mới nhất trong lĩnh vực cảnh quan đô thị. Nguồn tài nguyên phong phú này khuyến khích khám phá, học hỏi, và trao đổi ý tưởng, nuôi dưỡng một cộng đồng sôi động của những cá nhân cùng chí hướng, dédicated đến việc nâng cao chức năng, vẻ đẹp, và sự bền vững của không gian vật lý chúng ta.
 
