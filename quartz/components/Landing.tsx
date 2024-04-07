@@ -91,11 +91,11 @@ export default (() => {
           <p class="page-subhead">
             Bắt đầu tại đậy •{" "}
             <a href={"/VN/index"} target="_blank">
-            Trang Chinh
+            Trang Chính
             </a>{" "}
             •{" "}
             <a href="https://designosphere.wiki" target="_blank">
-            Gioi Thieu
+            Giới Thiệu
             </a>{" "}
             •{" "}
             <a href="https://designosphere.wiki/VN/Gioi-Thieu" target="_self">
