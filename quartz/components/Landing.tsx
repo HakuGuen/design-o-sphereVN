@@ -90,11 +90,11 @@ export default (() => {
           <p class="landing-header">Welcome to Design-O-Sphere</p>
           <p class="page-subhead">
             Bắt đầu tại đậy •{" "}
-            <a href={"/VN/index"} target="_blank">
+            <a href="https://designosphere.wiki" target="_blank">
             Trang Chính
             </a>{" "}
             •{" "}
-            <a href="https://designosphere.wiki" target="_blank">
+            <a href="https://designosphere.wiki/VN/Gioi-Thieu" target="_blank">
             Giới Thiệu
             </a>{" "}
             •{" "}
