@@ -87,7 +87,7 @@ export default (() => {
     return (
       <div>
         <div class="content-container">
-          <p class="landing-header">Welcome to Design-O-Sphere</p>
+          <p class="landing-header">Welcome to Design-OSphere</p>
           <p class="page-subhead">
             Bắt đầu tại đậy •{" "}
             <a href="https://designosphere.wiki" target="_blank">
