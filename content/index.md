@@ -1,5 +1,5 @@
 ---
-title: "Design-o-Sphere: Một cái nhìn khái quát về thiết kế không gian"
+title: "Design-o-Sphere: Một cái nhìn khái quát về Kiến Trúc và Thiết Kế"
 tags:
   - Architecture
   - "#InteriorDesign"
