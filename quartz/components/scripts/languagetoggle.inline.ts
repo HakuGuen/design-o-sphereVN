@@ -1,8 +1,8 @@
 type Language = 'en' | 'vn';
 
 const repositories = {
-  en: 'hakuguen.github.io/design-o-sphereEN',
-  vn: 'hakuguen.github.io/design-o-sphereVN'
+  en: 'designosphere.wiki/EN',
+  vn: 'designosphere.wiki/VN'
 };
 
 // This function needs to be adapted to your specific application logic

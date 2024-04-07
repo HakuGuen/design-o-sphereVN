@@ -15,7 +15,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "vi-VN",
-    baseUrl: "hakuguen.github.io/design-o-sphereVN",
+    baseUrl: "designosphere.wiki/VN",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {

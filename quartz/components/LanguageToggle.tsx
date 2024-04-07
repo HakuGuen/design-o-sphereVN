@@ -1,7 +1,7 @@
 import { QuartzComponentConstructor } from "./types"
 export default (() => {
   function LanguageToggle() {
-    return <a class="red-text" href="https://hakuguen.github.io/design-o-sphereEN"
+    return <a class="red-text" href="https://designosphere.wiki/EN"
     >
     ENGLISH
  </a>

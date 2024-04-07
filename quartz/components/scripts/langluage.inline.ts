@@ -1,6 +1,6 @@
 const repositories = {
-    en: 'hakuguen.github.io/design-o-sphereEN',
-    vn: 'hakuguen.github.io/design-o-sphereVN'
+    en: 'designosphere.wiki/EN',
+    vn: 'designosphere.wiki/VN'
   };
   
   type Language = 'en' | 'vn';

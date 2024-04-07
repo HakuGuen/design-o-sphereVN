@@ -10,7 +10,7 @@ tags:
   - "#Zettelkasten"
   - "#SoTayChuyenNganh"
 ---
->[!seealso] [[Giới Thiệu|Read this page in Vietnamese]]
+> [!seealso] [[Gioi-Thieu|Read this page in Vietnamese]]
 
 Đây là 1 nền tảng điện tử dưới dạng thư viện tổng hợp và sổ tay chuyên ngành dành cho tất cả mọi người từ kiến trúc sư, chuyên gia thiết kế, nghệ sĩ hay những ai yêu thíc lĩnh vực thiết kế, kiến trúc, và cảnh quan. [[content_vn/DesignOSphere]] là một phương pháp quản lý kiến thức dạng "[[Zettlekasten]]", nơi các ghi chú và ý tưởng liên kết với nhau tạo thành một thư viện động cho lĩnh vực thiết kế kiến trúc nội thất và cảnh quan.
 
